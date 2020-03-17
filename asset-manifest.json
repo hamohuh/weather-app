@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/weather-app/static/css/main.ff2bfa2b.chunk.css",
-    "main.js": "/weather-app/static/js/main.8bb0d231.chunk.js",
-    "main.js.map": "/weather-app/static/js/main.8bb0d231.chunk.js.map",
+    "main.css": "/weather-app/static/css/main.29a014ed.chunk.css",
+    "main.js": "/weather-app/static/js/main.6f79ed30.chunk.js",
+    "main.js.map": "/weather-app/static/js/main.6f79ed30.chunk.js.map",
     "runtime-main.js": "/weather-app/static/js/runtime-main.029e69d5.js",
     "runtime-main.js.map": "/weather-app/static/js/runtime-main.029e69d5.js.map",
     "static/css/2.de424728.chunk.css": "/weather-app/static/css/2.de424728.chunk.css",
-    "static/js/2.0ebc4131.chunk.js": "/weather-app/static/js/2.0ebc4131.chunk.js",
-    "static/js/2.0ebc4131.chunk.js.map": "/weather-app/static/js/2.0ebc4131.chunk.js.map",
+    "static/js/2.0befb0c4.chunk.js": "/weather-app/static/js/2.0befb0c4.chunk.js",
+    "static/js/2.0befb0c4.chunk.js.map": "/weather-app/static/js/2.0befb0c4.chunk.js.map",
     "index.html": "/weather-app/index.html",
-    "precache-manifest.a521189cf5846e3d73a5de3c53c78bed.js": "/weather-app/precache-manifest.a521189cf5846e3d73a5de3c53c78bed.js",
+    "precache-manifest.b024e5d421ae1e22264d16e84a767cae.js": "/weather-app/precache-manifest.b024e5d421ae1e22264d16e84a767cae.js",
     "service-worker.js": "/weather-app/service-worker.js",
     "static/css/2.de424728.chunk.css.map": "/weather-app/static/css/2.de424728.chunk.css.map",
-    "static/css/main.ff2bfa2b.chunk.css.map": "/weather-app/static/css/main.ff2bfa2b.chunk.css.map",
-    "static/js/2.0ebc4131.chunk.js.LICENSE.txt": "/weather-app/static/js/2.0ebc4131.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/weather-app/static/media/background.72dc4217.jpg"
+    "static/css/main.29a014ed.chunk.css.map": "/weather-app/static/css/main.29a014ed.chunk.css.map",
+    "static/js/2.0befb0c4.chunk.js.LICENSE.txt": "/weather-app/static/js/2.0befb0c4.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/weather-app/static/media/bc.a1a127f0.webp"
   },
   "entrypoints": [
     "static/js/runtime-main.029e69d5.js",
     "static/css/2.de424728.chunk.css",
-    "static/js/2.0ebc4131.chunk.js",
-    "static/css/main.ff2bfa2b.chunk.css",
-    "static/js/main.8bb0d231.chunk.js"
+    "static/js/2.0befb0c4.chunk.js",
+    "static/css/main.29a014ed.chunk.css",
+    "static/js/main.6f79ed30.chunk.js"
   ]
 }
