@@ -15,7 +15,7 @@ class App extends React.Component {
   }
 
   loadWeather = async () => {
-    const url = `http://api.openweathermap.org/data/2.5/weather?q=${this.state.city}&appid=b8eb68e1c174f223b1b7affd9174e75c`;
+    const url = `https://api.openweathermap.org/data/2.5/weather?q=${this.state.city}&appid=b8eb68e1c174f223b1b7affd9174e75c`;
 
     await axios.get(url)
       .then(res => {
@@ -33,9 +33,7 @@ class App extends React.Component {
   }
 
   toggleTemp = () => {
-    console.log("hi");
     this.setState({ tempMeasure: !this.state.tempMeasure })
-    console.log(this.state.tempMeasure);
   }
 
   render() {
