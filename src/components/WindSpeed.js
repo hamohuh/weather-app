@@ -1,7 +1,10 @@
 import React from 'react'
 
+/**
+ * This functional component is responsible for rendering the Wind Speed
+ * and it render the value either in KM/H or Mph depends on the user choice
+ */
 function WindSpeed(props) {
-    //const windSpeed = props.weather != null ? parseFloat((props.weather.data.wind.speed * 3.6).toFixed(2)) + ' Km/H' : '--';
 
     let windSpeed;
     if (props.weather != null && props.tempMeasure === true) {

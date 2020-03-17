@@ -1,5 +1,9 @@
 import React from 'react'
 
+/**
+ * This functional component is responsible for rendering the sunset time
+ * it takes the time stamp from the given data and switch it human time
+ */
 function Sunset(props) {
 
     let time, hours, minutes;

@@ -1,5 +1,9 @@
 import React from 'react'
 
+/**
+ * This functional component is responsible for rendering the Main Temp
+ * and it render the value either in C or F depends on the user choice
+ */
 function Temprature(props) {
 
     let temp;

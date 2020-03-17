@@ -1,8 +1,8 @@
 body{
-    background-image: url('background.jpg');
+    background-image: url('images/bc.webp');
     background-size:     cover;           
     background-repeat:   no-repeat;
-    background-position: center center;  
+    /* background-position: center center;  */ 
 }
 .App{
     margin: 0 auto;
@@ -17,22 +17,27 @@ p{
     border: none;
     margin-top: 30px;
     margin-bottom: 50px;
-    text-align: center;
+    
 }
-#city-name-input{
+.react-autosuggest__container{
+    display: inline-block;
     width: 75%;
+}
+.react-autosuggest__input{
+    width: 100%;
     height: 50px;
     padding-left: 15px;
     border: none;
     border-radius: 15px 0 0 15px;
     font-size: 20px;
+    box-shadow: 0 0 15px 2px rgb(132, 171, 214);
 }
-#city-name-input:focus{
-    box-shadow: -5px 0 10px 0 lightsalmon;
+.react-autosuggest__input:focus{
+    box-shadow: 0 0 15px 2px rgb(72, 121, 173);
 }
 #search-button{
     font-size: 20px;
-    width: 22%;
+    width: 25%;
     height: 50px;
     border: none;
     cursor: pointer;
@@ -41,20 +46,57 @@ p{
 #search-button:hover{
     background-color: lightgray;
 }
+.react-autosuggest__suggestions-container--open
+{
+    background-color: white;
+    position: absolute;
+    top: 13%;
+    max-height: 300px;
+    width: 38%;
+    overflow-y: hidden;
+    box-sizing: border-box;
+    z-index: 999;
+    right: 36%;
+}
 
-.container{
+.react-autosuggest__suggestion{
+    list-style: none;
+    text-align: left;
+    cursor: pointer;
+    inline-size: 90%;
+    margin-top: 10px;
+    padding: 5px;
+}
+.react-autosuggest__suggestion:hover{
+    background-color: lightgray;
+}
+
+.react-autosuggest__suggestions-container--open{
+    border-radius: 15px;
+    box-shadow: 0 0 15px 2px rgb(132, 171, 214);
+}
+.react-autosuggest__suggestions-container--open > div{
+    border-radius: unset;
+}
+
+
+.body-container{
     border: 1px solid lightcyan;
     border-radius: 10px;
     width: 50% !important;
     padding: 20px;
     background-color: rgb(238, 238, 236);
-    box-shadow: 0 0 15px 2px rgb(238, 238, 236);
+    box-shadow: 0 0 15px 2px rgb(132, 171, 214);
 }
 .row{
     padding-left: 30px;
 }
 .location,.main-temprature,.state{
 text-align: center;
+}
+.location > p{
+    display: inline;
+    text-align: center !important;
 }
 .max-temp, .min-temp{
     float: right;
@@ -105,4 +147,18 @@ text-align: center;
     border: none;
     width: 30px;
     height: 30px;
+    position: absolute;
+    z-index: 99;
+}
+.toast-header{
+    color: red !important;
+}
+.toast{
+    width: 29% !important;
+    font-size: 25px;
+    color: red;
+    position: absolute;
+    z-index: 999999;
+    margin: 0 auto;
+    box-shadow: 0 0 5px 2px rgb(201, 63, 21) !important;
 }

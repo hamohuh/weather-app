@@ -1,10 +1,15 @@
 import React from 'react';
 
-function SwtchTemp(props) {
+/**
+ * This Functional Component returns a button if we enter a valid city
+ * this button is responsible for switching the tempMeasure in the App state
+ * between false and true so we can use its value to set the measure to C or F
+ */
+function SwitchTemp(props) {
 
     let handleClick = (e) => {
         e.preventDefault();
-        props.toggleTemp()
+        props.toggleTemp();
     }
 
     let temp = props.tempMeasure === true ? 'F' : 'C';
@@ -16,4 +21,4 @@ function SwtchTemp(props) {
 
 }
 
-export default SwtchTemp;
+export default SwitchTemp;

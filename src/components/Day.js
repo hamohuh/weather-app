@@ -1,5 +1,8 @@
 import React from 'react'
 
+/**
+ * This functional component is responsible for rendering the TODAY day
+ */
 function Day(props) {
 
     let a = new Date();
