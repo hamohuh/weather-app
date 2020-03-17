@@ -8,7 +8,7 @@
 
 ###  [Live Demo](https://hamohuh.github.io/weather-app/);
 
-### Table of contents
+## Table of contents
 * [Main Features](#main-features)
 * [Technologies](#technologies)
 * [Key Concepts](#key-concepts)
@@ -16,30 +16,30 @@
 * [Setup](#setup)
 
 
-### Main Features
+## Main Features
 * World cities Auto suggestion
 * Unit Switch (C/F)
 * Elegant UI
 
-### Technologies
+## Technologies
 Project is created with:
 * React JS
 * Axios
 * React Bootstrap
 * [React Autosuggest](https://github.com/moroshko/react-autosuggest)
 
-### Key Concepts 
+## Key Concepts 
 * Promise (then/catch) using Axios
 * Async/Await
 * ES6 Module
 * OOP (Object Oriented Programming)
 * MVC (Model-View-Controller)
 
-### Resources
+## Resources
 * [Open weather api](https://openweathermap.org/api) Provides live data for the weather.
 * [World's cities list](https://datahub.io/core/world-cities) Provides data set for world's cites.
 
-### Setup
+## Setup
 To run this project, install it locally using npm:
 
 ```
