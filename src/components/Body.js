@@ -43,7 +43,7 @@ function Body(props) {
                 <Col><Temprature weather={weather} tempMeasure={tempMeasure} /></Col>
             </Row>
 
-            <Row className="justify-content-md-center">
+            <Row className="day-and-minmax">
                 <Col><Day /></Col>
                 <Col>
                     <MinTemp weather={weather} tempMeasure={tempMeasure} />
