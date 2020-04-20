@@ -8,7 +8,11 @@
 
 ###  [Live Demo](https://hamohuh.github.io/weather-app/);
 
+<<<<<<< HEAD
 ### Table of contents
+=======
+## Table of contents
+>>>>>>> 13d99d438145eb3dfe7f8f18d6d1a0276c967e98
 * [Main Features](#main-features)
 * [Technologies](#technologies)
 * [Key Concepts](#key-concepts)
@@ -16,30 +20,50 @@
 * [Setup](#setup)
 
 
+<<<<<<< HEAD
 ### Main Features
+=======
+## Main Features
+>>>>>>> 13d99d438145eb3dfe7f8f18d6d1a0276c967e98
 * World cities Auto suggestion
 * Unit Switch (C/F)
 * Elegant UI
 
+<<<<<<< HEAD
 ### Technologies
+=======
+## Technologies
+>>>>>>> 13d99d438145eb3dfe7f8f18d6d1a0276c967e98
 Project is created with:
 * React JS
 * Axios
 * React Bootstrap
 * [React Autosuggest](https://github.com/moroshko/react-autosuggest)
 
+<<<<<<< HEAD
 ### Key Concepts 
+=======
+## Key Concepts 
+>>>>>>> 13d99d438145eb3dfe7f8f18d6d1a0276c967e98
 * Promise (then/catch) using Axios
 * Async/Await
 * ES6 Module
 * OOP (Object Oriented Programming)
 * MVC (Model-View-Controller)
 
+<<<<<<< HEAD
 ### Resources
 * [Open weather api](https://openweathermap.org/api) Provides live data for the weather.
 * [World's cities list](https://datahub.io/core/world-cities) Provides data set for world's cites.
 
 ### Setup
+=======
+## Resources
+* [Open weather api](https://openweathermap.org/api) Provides live data for the weather.
+* [World's cities list](https://datahub.io/core/world-cities) Provides data set for world's cites.
+
+## Setup
+>>>>>>> 13d99d438145eb3dfe7f8f18d6d1a0276c967e98
 To run this project, install it locally using npm:
 
 ```
