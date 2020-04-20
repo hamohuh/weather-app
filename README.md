@@ -40,7 +40,6 @@ Project is created with:
 * [World's cities list](https://datahub.io/core/world-cities) Provides data set for world's cites.
 
 ## 💻 Setup
->>>>>>> 13d99d438145eb3dfe7f8f18d6d1a0276c967e98
 To run this project, install it locally using npm:
 
 ```
