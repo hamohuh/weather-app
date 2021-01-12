@@ -4,9 +4,9 @@
 
 > React Weather App for The Odin Project practice
 > From The Odin Project's [curriculum](https://www.theodinproject.com/courses/javascript/lessons/weather-app). 
-> The Code can be found [here](https://github.com/hamohuh/weather-app/tree/master)
+> The Code can be found [here](https://github.com/moelashmawy/weather-app/tree/master)
 
-###  ⚡️⚡️⚡️ [Live Demo](https://hamohuh.github.io/weather-app/) ⚡️⚡️⚡️
+###  ⚡️⚡️⚡️ [Live Demo](https://moelashmawy.github.io/weather-app/) ⚡️⚡️⚡️
 
 ## 📜 Table of contents
 * [Main Features](#main-features)
@@ -54,8 +54,8 @@ $ npm start
 👤 **Mohamed Elashmawy**
 
 * Twitter: [@hamohuh](https://twitter.com/hamohuh)
-* Github: [@hamohuh](https://github.com/hamohuh)
-* Email: [hamodroid@gmail.com](mailto:hamodroid@gmail.com)
+* Github: [@hamohuh](https://github.com/moelashmawy)
+* Email: [mohamed.elashmawy894@gmail.com](mailto:mohamed.elashmawy894@gmail.com)
 
 ## 📝 License
 This project is [MIT](./LICENSE) licensed.
