@@ -54,7 +54,7 @@ $ npm start
 👤 **Mohamed Elashmawy**
 
 * Twitter: [@hamohuh](https://twitter.com/hamohuh)
-* Github: [@hamohuh](https://github.com/moelashmawy)
+* Github: [@moelashmawy](https://github.com/moelashmawy)
 * Email: [mohamed.elashmawy894@gmail.com](mailto:mohamed.elashmawy894@gmail.com)
 
 ## 📝 License
